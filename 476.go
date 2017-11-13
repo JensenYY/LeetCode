@@ -5,10 +5,10 @@ import (
 )
 
 func findComplement(num int) int {
-    if num == 1{
-        return 0
-    }
-    count := 1
+	if num == 1 {
+		return 0
+	}
+	count := 1
 	for count <= num {
 		count *= 2
 	}

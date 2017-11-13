@@ -1,6 +1,6 @@
 package main
 
-import(
+import (
 	"strings"
 )
 
@@ -9,7 +9,6 @@ const (
 	s2 = "asdfghjklASDFGHJKL"
 	s3 = "zxcvbnmZXCVBNM"
 )
-
 
 func findWords(words []string) []string {
 	var newWords []string = make([]string, 0, len(words))
@@ -34,4 +33,3 @@ func findWords(words []string) []string {
 	}
 	return newWords
 }
-

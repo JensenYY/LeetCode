@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 )
+
 //too slow
 func reverseWords(s string) string {
 	var str string
@@ -24,12 +25,11 @@ func reverseWords(s string) string {
 	return str
 }
 
-
 /*Just 12s
 func reverseWords(s string) string {
     b := []byte(s)
     start := 0
-    
+
     for i := 0; i < len(b); i++ {
         if b[i] == ' ' {
             reverseWord(b, start, i-1)
